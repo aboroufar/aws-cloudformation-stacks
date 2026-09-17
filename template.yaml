@@ -17,7 +17,7 @@ Resources:
       InstanceType: t3.micro
       SecurityGroups:
         - !Ref SSHSecurityGroup
-        - !Ref  
+        - !Ref ServerSecurityGroup
 
   # an elastic IP for our instance
   MyEIP:
