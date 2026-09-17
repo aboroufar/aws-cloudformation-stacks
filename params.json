@@ -1,0 +1,5 @@
+{
+  "Parameters": {
+    "SecurityGroupDescription": "Application security group created by CodePipeline"
+  }
+}
