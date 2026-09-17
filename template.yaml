@@ -13,7 +13,7 @@ Resources:
   MyInstance:
     Type: AWS::EC2::Instance
     Properties:
-      AvailabilityZone: !Select [0, !GetAZs 'eu-west-1']
+      AvailabilityZone: !Select [0, !GetAZs 'eu-west-12']
       ImageId: !Ref LatestAmiId
       InstanceType: t3.micro
       SecurityGroups:
